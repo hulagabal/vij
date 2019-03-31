@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49" started-at="2019-03-17T11:05:01Z" finished-at="2019-03-17T11:05:01Z">
+  <suite name="Default suite" duration-ms="46" started-at="2019-03-31T07:38:32Z" finished-at="2019-03-31T07:38:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49" started-at="2019-03-17T11:05:01Z" finished-at="2019-03-17T11:05:01Z">
+    <test name="Default test" duration-ms="46" started-at="2019-03-31T07:38:32Z" finished-at="2019-03-31T07:38:32Z">
       <class name="com.vij.Test">
-        <test-method status="FAIL" signature="openBrowser(java.lang.String)[pri:0, instance:com.vij.Test@475530b9]" name="openBrowser" is-config="true" duration-ms="0" started-at="2019-03-17T16:35:01Z" finished-at="2019-03-17T16:35:01Z">
+        <test-method status="FAIL" signature="openBrowser(java.lang.String)[pri:0, instance:com.vij.Test@475530b9]" name="openBrowser" is-config="true" duration-ms="0" started-at="2019-03-31T13:08:32Z" finished-at="2019-03-31T13:08:32Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by @Configuration on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Mutturaj\AppData\Local\Temp\testng-eclipse--764823586\testng-customsuite.xml]]>
+in C:\Users\Mutturaj\AppData\Local\Temp\testng-eclipse-1669020168\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by @Configuration on method openBrowser but has not been marked @Optional or defined
-in C:\Users\Mutturaj\AppData\Local\Temp\testng-eclipse--764823586\testng-customsuite.xml
+in C:\Users\Mutturaj\AppData\Local\Temp\testng-eclipse-1669020168\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
@@ -43,7 +43,7 @@ in C:\Users\Mutturaj\AppData\Local\Temp\testng-eclipse--764823586\testng-customs
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="test2()[pri:0, instance:com.vij.Test@475530b9]" name="test2" duration-ms="14" started-at="2019-03-17T16:35:01Z" finished-at="2019-03-17T16:35:01Z">
+        <test-method status="SKIP" signature="test2()[pri:0, instance:com.vij.Test@475530b9]" name="test2" duration-ms="5" started-at="2019-03-31T13:08:32Z" finished-at="2019-03-31T13:08:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
